@@ -35,7 +35,7 @@ namespace Startup
                                 Person newPerson = new Person(firstName, lastName, age);
                                 personList.Add(newPerson);
 
-                                Console.WriteLine($"{newPerson.getfirstName()} {newPerson.getLastName()} has been added to the list!");
+                                Console.WriteLine($"{newPerson.getFirstName()} {newPerson.getLastName()} has been added to the list!");
                                
                                 break;
 
@@ -100,7 +100,7 @@ namespace Startup
             return age;
         }
 
-        public string getfirstName()
+        public string getFirstName()
         {
             return firstName;
         }
